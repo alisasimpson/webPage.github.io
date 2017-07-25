@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Test </title>
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="csript.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="top-header">
+        <div class="language" id="language">
+            <span> EN</span>
+            <img src="image/arrow.png ">
+        </div>
+        <img src="image/separator.png " id="separator">
+        <div class="currency" id="currency">
+            <span>USD</span>
+            <img src="image/arrow.png ">
+        </div>
+        <div class="wrapper-right" id="wrapper-right">
+            <div class="wishlist" id="wishlist">
+                <img src="image/3.png">
+                Wishlist: 0
+            </div>
+            <img src="image/separator.png " id="separator-left">
+            <div class="compare" id="compare">
+                <img src="image/5.png">
+                Compare: 0
+            </div>
+            <img src="image/separator.png " id="separator-left1">
+            <a href="#">
+                <div class="login" id="login">
+                    <img src="image/4.png">
+                    Login
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="wrapper-menu">
+        <div id="menu">
+            <a href="#">
+                <div id="logo">
+                    PRIVILEGE
+                </div>
+            </a>
+            <div id="main-menu">
+                <ul class="menu-main">
+                    <li><a href="" class="current">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">BUY THEME!</a></li>
+                </ul>
+            </div>
+            <div id="search">
+                <a href="#"> <img src="image/search.png"> </a>
+            </div>
+            <div id="cart">
+                <a href="#"> <img src="image/card.png"> </a>
+
+            </div>
+            <div id="cart1">
+                <a href="#"> <img src="image/card1.png"> </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="wrapper">
+    <div id="slader">
+        <script src="./js/jssor.slider-25.2.0.min.js" type="text/javascript"></script>
+        <style>
+            /* jssor slider loading skin double-tail-spin css */
+            .jssorl-004-double-tail-spin img {
+                animation-name: jssorl-004-double-tail-spin;
+                animation-duration: 1.2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-004-double-tail-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .jssorb052 .i {
+                position: absolute;
+                cursor: pointer;
+            }
+
+            .jssorb052 .i .b {
+                fill: #000;
+                fill-opacity: 0.3;
+                stroke: #fff;
+                stroke-width: 400;
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.7;
+            }
+
+            .jssorb052 .i:hover .b {
+                fill-opacity: .7;
+            }
+
+            .jssorb052 .iav .b {
+                fill-opacity: 1;
+            }
+
+            .jssorb052 .i.idn {
+                opacity: .3;
+            }
+
+            .jssora053 {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            .jssora053 .a {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 640;
+                stroke-miterlimit: 10;
+            }
+
+            .jssora053:hover {
+                opacity: .8;
+            }
+
+            .jssora053.jssora053dn {
+                opacity: .5;
+            }
+
+            .jssora053.jssora053ds {
+                opacity: .3;
+                pointer-events: none;
+            }
+        </style>
+        <div id="jssor_1"
+             style="position:relative;margin:0 auto;top:0px;left:0px;width:1350px;height:450px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-004-double-tail-spin"
+                 style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+                     src="image/double-tail-spin.svg"/>
+            </div>
+            <div data-u="slides" class="slide-style"
+                 style="cursor:default;position:relative;top:0px;left:0px;width:1350px;height:450px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="image/slider.png"/>
+                    <div class="zzz"
+                         style=" width: 200px;height: 200px; position: relative; margin-top: 10%; margin-left:70%;z-index: 9999;">
+                        <p style="margin-bottom: 15px; font-size: 20px; color:white;" >THE SPRING</p>
+                        <p style="margin-bottom: 15px; font-size: 30px; color:#ffffff"> COLLECTION </p>
+                        <p style="margin-bottom: 15px; font-size: 40px; margin-left: 50px; color:#ccb48e"> 2016 </p>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="image/slider.png"/>
+                    <div class="zzz"
+                         style=" width: 200px;height: 200px; position: relative; margin-top: 10%; margin-left:70%;z-index: 9999;">
+                        <p style="margin-bottom: 15px; font-size: 20px; color:white;" > SPRING</p>
+                        <p style="margin-bottom: 15px; font-size: 30px; color:#ffffff"> COLLECTION </p>
+                        <p style="margin-bottom: 15px; font-size: 40px; margin-left: 50px; color:#ccb48e"> 2016 </p>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="image/slider.png"/>
+                    <div class="zzz"
+                         style=" width: 200px;height: 200px; position: relative; margin-top: 10%; margin-left:70%;z-index: 9999;">
+                        <p style="margin-bottom: 15px; font-size: 20px; color:white;" > SPRING</p>
+                        <p style="margin-bottom: 15px; font-size: 30px; color:#ffffff"> COLLECTION </p>
+                        <p style="margin-bottom: 15px; font-size: 40px; margin-left: 50px; color:#ccb48e"> 2016 </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;"
+                 data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;"
+                 data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;"
+                 data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+        <script type="text/javascript">jssor_1_slider_init();</script>
+    </div>
+    <div id="center-block">
+        <div id="banner">
+            <div class="banner1">
+                <img src="image/banner1.png" alt="Image" title="Image"/>
+                <div class="text-banner">
+                    <p> WOMEN</p>
+                    <p> COLLECTION</p>
+                </div>
+            </div>
+            <div class="banner1">
+                <img src="image/banner2.png" alt="Image" title="Image"/>
+                <div class="text-banner-men">
+                    <p> MEN</p>
+                    <p> COLLECTION</p>
+                </div>
+            </div>
+            <div class="banner1">
+                <img src="image/clock.png" alt="Image" title="Image"/>
+                <div class="text-banner-sale">
+                    <p> SALE</p>
+                    <p> 30% -90% OFF</p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-products">
+            <p>Feature Products</p>
+        </div>
+        <div class="new-arivals">
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/first1.png" alt="Image" title="Image"/>
+                    <p> Woman White Shirt </p>
+                    <p> $ 150.00 </p>
+                </a>
+                <form action="#">
+                    <button type="submit">ADD TO CARD</button>
+                </form>
+
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/first2.png" alt="Image" title="Image"/>
+                    <p> Mini Dress </p>
+                    <p> $ 230.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/first3.png" alt="Image" title="Image"/>
+                    <p> Woman Evening Dress </p>
+                    <p> $ 190.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/first4.png" alt="Image" title="Image"/>
+                    <p> Man Suit Jacket </p>
+                    <p> $ 300.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+        </div>
+        <div class="popular-products">
+            <p>Popular product</p>
+        </div>
+        <div class="new-arivals">
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/second1.png" alt="Image" title="Image"/>
+                    <p> Men Sweater </p>
+                    <p> $ 150.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/second2.png" alt="Image" title="Image"/>
+                    <p> Woman Shift Summer </p>
+                    <p> $ 280.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/second3.png" alt="Image" title="Image"/>
+                    <p> Men Suit Jacket </p>
+                    <p> $ 250.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/second4.png" alt="Image" title="Image"/>
+                    <p> Woman Sweater </p>
+                    <p> $ 300.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+        </div>
+        <div class="new-arivals-title">
+            <p>New Arivals</p>
+        </div>
+        <div class="new-arivals">
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/third1.png" alt="Image" title="Image"/>
+                    <p> Woman Top </p>
+                    <p> $ 150.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/third2.png" alt="Image" title="Image"/>
+                    <p> Woman weater </p>
+                    <p> $ 230.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/third3.png" alt="Image" title="Image"/>
+                    <p> Woman Evening Dress </p>
+                    <p> $ 190.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+            <div class="article">
+                <a href="#" target="_blank">
+                    <img src="image/third4.png" alt="Image" title="Image"/>
+                    <p> Woman Evening Dress </p>
+                    <p> $ 300.00 </p>
+                </a>
+                <button> ADD TO CARD</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="shop-by-brands">
+        <p>Shop By Brands</p>
+    </div>
+    <div id="brands">
+        <a href="/">
+            <div class="brands"><p>GIORGIO ARMANI</p></div>
+        </a>
+        <a href="/">
+            <div class="brands" id="versage"><p>VERSAGE</p></div>
+        </a>
+        <a href="/">
+            <div class="brands" id="glamuir"><p> GLENMUIR</p></div>
+        </a>
+        <a href="/">
+            <div class="brands"><p>LOUIS VUITTON</p></div>
+        </a>
+        <a href="/">
+            <div class="brands" id="gucci"><p> GUCCI</p></div>
+        </a>
+        <a href="/">
+            <div class="brands"><p>DOLCE&GABBANA</p></div>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <div id="subscribed">
+        <div id="subscribed-center">
+            <div id="sign-text">
+                <p>SUBSCRIBE TO OUR NEWSLETTER ADD GET A $30 VOUCHER</p>
+            </div>
+            <div id="sign-to-mail">
+                <form action="send.html" method="post">
+                    <input type="text" id="email" name="email" placeholder="E-mail Address">
+                    <input type="submit" id="submit" value="SUBSCRIBE">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-center">
+        <div id="footer-menu">
+            <div id="list-menu">
+                <div class="block-list">
+                    <ul> WHAT'S HOT
+                        <li>Discount Voucher</li>
+                        <li>Summer collection</li>
+                        <li>Popular products</li>
+                        <li>Best Sellers</li>
+                    </ul>
+                </div>
+                <div class="block-list">
+                    <ul> BRANDS
+                        <li>Giorgio Armani</li>
+                        <li>Versace</li>
+                        <li>Chanel</li>
+                        <li>Gucci</li>
+                    </ul>
+                </div>
+                <div class="block-list">
+                    <ul> WHAT'S HOT
+                        <li>Discount Voucher</li>
+                        <li>Summer collection</li>
+                        <li>Popular products</li>
+                        <li>Best Sellers</li>
+                    </ul>
+                </div>
+                <div class="block-list">
+                    <ul> WHAT'S HOT
+                        <li>Discount Voucher</li>
+                        <li>Summer collection</li>
+                        <li>Popular products</li>
+                        <li>Best Sellers</li>
+                    </ul>
+                </div>
+                <div class="block-list">
+                    <ul> WHAT'S HOT
+                        <li>Discount Voucher</li>
+                        <li>Summer collection</li>
+                        <li>Popular products</li>
+                        <li>Best Sellers</li>
+                    </ul>
+                </div>
+                <div class="block-list">
+                    <ul> WHAT'S HOT
+                        <li>Discount Voucher</li>
+                        <li>Summer collection</li>
+                        <li>Popular products</li>
+                        <li>Best Sellers</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer-acceptions">
+            <div id="follow-us">
+                <div id="text-follow">
+                    <p> FOLLOW_US</p>
+                </div>
+                <div id="sosials">
+                    <a href="https://www.facebook.com" class="sosial"><img src="image/sosial1.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial2.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial3.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial4.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial5.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial6.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial7.png"></a>
+                    <a href="/" class="sosial"><img src="image/sosial8.png"></a>
+                </div>
+            </div>
+            <div id="accept-us">
+                <div id="text-accept">
+                    <p> ACCEPT_US</p>
+                </div>
+                <div id="labels">
+                    <a href="/" class="sosial-label"><img src="image/accept1.png"></a>
+                    <a href="/" class="sosial-label"><img src="image/accept2.png"></a>
+                    <a href="/" class="sosial-label"><img src="image/accept3.png"></a>
+                    <a href="/" class="sosial-label"><img src="image/accept4.png"></a>
+                    <a href="/" class="sosial-label"><img src="image/accept5.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="rights">
+        <div id="rights-left">
+            <script type="text/javascript">document.write(new Date().getFullYear());</script>
+            Privileged. All Rights Reserve.
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
